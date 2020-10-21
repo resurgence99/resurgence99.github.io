@@ -1,8 +1,19 @@
 h1{
         
     text-align: center;
-    
 }
 body{
     
+}
+
+footer {
+   -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  line-height: 1.15;
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
