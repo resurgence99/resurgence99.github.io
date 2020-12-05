@@ -14,16 +14,60 @@
 
 <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
 
-        <link href="css/index.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <link href="css/navbar.css" rel="stylesheet" type="text/css">
 
     </head>
 
     <body>
 
+        <nav role='navigation'>
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+
+              <!--
+              Some spans to act as a hamburger.
+
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Info</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+              </ul>
+            </div>
+          </nav>
 
 
 
+        <div class="section1">
             <h1 class="center-text ">Ganesh G</h1>
+            <p class="center-paragraph">Learn more about me here.</p>
+
+        </div>
+
+        <div class="section2" style="background-color:blueviolet;height: 100vh;">
+
+        </div>
+
+
+
+
 
 
 
@@ -33,6 +77,8 @@
 
 
         <script href="js/index.js" type="text/javascript"></script>
+
+        <script href="js/navbar.js" type="text/javascript"></script>
 
     </body>
 </html>
