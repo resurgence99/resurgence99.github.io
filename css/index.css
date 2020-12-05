@@ -89,13 +89,13 @@ body{
   background-color: rgb(82, 82, 82);
   border-radius: 100%;
   content: '';
-  height: 10px;
+  height: 7px;
   left: 0;
   margin: 0 auto;
   position: absolute;
   right: 0;
   top: 10px;
-  width: 8px;
+  width: 6px;
 }
 @-moz-keyframes scrollDownAnimation {
   0% {
