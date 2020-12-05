@@ -6,7 +6,7 @@ body{
 
 /* For centering text in page */
 .center-text{
-  font-size: 4.9rem;
+  font-size: 5rem;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -22,7 +22,7 @@ body{
 }
 
 .center-paragraph{
-  font-size: 2.2rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -44,7 +44,7 @@ body{
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 472px;}
+  to{width: 655px;}
 }
 
 /* cursor animations */
