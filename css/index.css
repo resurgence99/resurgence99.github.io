@@ -44,13 +44,13 @@ body{
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 655px;}
+  to{width: 690px;}
 }
 
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
   to{border-right-color: transparent;}
 }
 
@@ -66,4 +66,98 @@ body{
 .section1{
   height:100vh;
   background-color:rgb(253, 253, 253);
+}
+
+/* Scroll Down Indicator */
+
+body {
+  background: #212121;
+}
+.scroll-down {
+  border: 2.5px solid rgb(82, 82, 82);
+  border-radius: 20px;
+  bottom: 60px;
+  height: 50px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 30px;
+}
+.scroll-down::before {
+  animation: scrollDownAnimation 2s infinite;
+  background-color: rgb(82, 82, 82);
+  border-radius: 100%;
+  content: '';
+  height: 10px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 8px;
+}
+@-moz-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+  100% {
+    opacity: 0;
+  }
 }
