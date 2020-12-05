@@ -1,0 +1,50 @@
+
+.landing {
+    height: 100vh;
+    background-color: gray;
+    color: white;
+}
+.landing h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+.dots-wrapper {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.95;
+    z-index: 2;
+}
+.dots-list {
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+.dot-2 {
+    margin: 15px 0;
+}
+.dots-active {
+    background-color: black;
+    animation: bounce 0.5s 1;
+    animation-direction: forwards;
+}
+@keyframes bounce {
+    0% {
+        transform: translatex(-5px);
+   }
+}
