@@ -161,3 +161,11 @@ body{
     opacity: 0;
   }
 }
+
+#social-icons{
+ align-items:center;
+}
+
+ion-icon{
+
+}
