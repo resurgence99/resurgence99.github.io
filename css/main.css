@@ -1,0 +1,193 @@
+html {
+  --scrollbarBG: #005AB5;
+  --thumbBG: #febd11;
+}
+body::-webkit-scrollbar {
+  width: 13px;
+}
+body {
+  scrollbar-width: medium;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.vh100{
+  height: 100vh;
+}
+
+.gold-bckgrnd{
+  background-color: #febd11;
+}
+
+.gold-bckgrnd-lt{
+  background-color: #fffdf5;
+}
+
+.blue-bckgrnd{
+  background-color: #005AB5;
+}
+
+.blue-bckgrnd-lt{
+  background-color: #f3f9ff;
+}
+
+/* The content inside each page section */
+.cont-middle{
+  /* padding: 40% 4% 3% 4%; */
+  /* top left bottom right */
+
+  margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+* {
+    font-family: 'Raleway', sans-serif;
+  }
+
+h1{
+    font-size:4rem;
+    font-weight: 700;
+  }
+
+h2{
+  font-size: 3.2rem;
+  font-weight: 700;
+  }
+
+h3{
+  font-size: 2rem;
+  font-weight:600;
+}
+
+.p-content{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+
+#landing-page{
+    background-color: #005AB5 ;
+    height:100vh ;
+  }
+
+
+.blue{
+  color:#00297c;
+}
+.golden{
+    color: #febd11;
+  }
+
+  .white{
+    color: white;
+  }
+
+  /* The Full Navbar Css */
+.navbar a:hover {
+    color:#ffffff;
+  }
+  
+  .navbar a:focus{
+    color:#ffffff;
+  }
+
+  .navbar a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-weight:500;
+  }
+
+  button:focus{
+    box-shadow: 0;
+    border: none;
+  }
+
+.text-middle{
+     margin:0;
+    margin-left: 10px;
+    padding:0 0 0 0;
+    position:absolute;
+    top: 50%; 
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    }
+
+.p-landing{
+      font-size:1.4rem;
+      }
+      
+
+
+
+    /* For first section page split */
+.first-half-s1{
+  background-color:white;
+  height:100vh;
+
+}
+
+.second-half-s1{
+  background-color:#febd11;
+  height:100vh;
+  }
+
+  .img-content{
+    /* margin: 50% 0% 50% 0%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /* Second page */
+
+  #section-2{
+    height:100vh;
+    background-color:white;
+  }
+
+  .first-half-s2{
+    background-color:white;
+    height:100vh;
+  
+  }
+  
+  .second-half-s2{
+    background-color:#005daa;
+    }
+
+    /* focus element has black shadow need to  */
+
+/* Css for content links*/
+.content-link{
+  text-decoration: underline;
+  color: white;
+  font-size: 1rem;
+}
+
+.content-link:hover{
+  color:rgb(216, 216, 216);
+}
+
+.footer-cus{
+font-weight: 550;
+}
