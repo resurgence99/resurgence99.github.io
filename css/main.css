@@ -33,6 +33,9 @@ body::-webkit-scrollbar-thumb {
 .blue-bckgrnd{
   background-color: #005AB5;
 }
+.darkblue-bckgrnd{
+  background-color:#02308a;
+}
 
 .blue-bckgrnd-lt{
   background-color: #f3f9ff;
@@ -190,4 +193,20 @@ h3{
 
 .footer-cus{
 font-weight: 550;
+}
+
+/* Css for form in contact page */
+.form-css{
+ padding:28% 7% 0% 7%;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 600;
+ font-size:1.2rem;
+}
+
+.submit-but{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.submit-but button:hover{
+  color:white;
 }
