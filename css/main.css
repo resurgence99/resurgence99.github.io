@@ -216,3 +216,9 @@ font-weight: 550;
 .submit-but button:hover{
   color:white;
 }
+
+/* Css of skills section*/
+#skills{
+  text-align: center;
+  font-weight: 600;
+}
