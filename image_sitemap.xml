@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://ganeshg.in/</loc>
+	<lastmod>2021-09-10T11:56:42+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://ganeshg.in/css/img/hamburger.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ganeshg.in/css/img/logo_white.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ganeshg.in/css/img/bookstore_site.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ganeshg.in/css/img/caliwithash_site.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://ganeshg.in/contact.html</loc>
+	<lastmod>2021-09-10T11:56:42+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ganeshg.in/resume.html</loc>
+	<lastmod>2021-09-10T11:56:46+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ganeshg.in/index.html</loc>
+	<lastmod>2021-09-10T11:56:46+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
