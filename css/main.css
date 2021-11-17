@@ -198,13 +198,25 @@ h3{
     /* focus element has black shadow need to  */
 
 /* Css for content links*/
-.content-link{
+.content-link-yellow{
   text-decoration: underline;
-  color: white;
+  color: rgb(5, 7, 92);
   font-size: 1rem;
+  font-weight: 500;
 }
 
-.content-link:hover{
+.content-link-blue{
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.content-link-yellow:hover{
+  color:rgb(216, 216, 216);
+}
+
+.content-link-blue:hover{
   color:rgb(216, 216, 216);
 }
 
